@@ -2,6 +2,54 @@
   text-align: center;
 }
 
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+.bloomfilter-container {
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .bloomfilter-container {
+    max-width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.gradient__bg 
+
+  {
+
+      /* ff 3.6+ */
+      background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  
+      /* safari 5.1+,chrome 10+ */
+      background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  
+      /* opera 11.10+ */
+      background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  
+      /* ie 10+ */
+      background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  
+      /* global 92%+ browsers support */
+      background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  
+  }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
